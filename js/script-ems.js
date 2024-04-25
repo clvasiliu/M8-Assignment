@@ -23,7 +23,7 @@ let empCount = _("empCount");
 let empForm = _("addForm");
 
 // BUILD THE EMPLOYEES TABLE WHEN THE PAGE LOADS
-window.onload() = function() { buildGrid(); };
+window.onload = buildGrid;
 
 // ADD EMPLOYEE
 empForm.addEventListener('submit', (e) => {
